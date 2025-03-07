@@ -41,7 +41,7 @@ public class Main {
         for (int expense : arr) {
             totalExpensesss += expense;
         }
-        double averageExpenses = totalExpensesss / 4.0;
+        double averageExpenses = totalExpensesss / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageExpenses + " рублей.");
         System.out.println("Задача 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
